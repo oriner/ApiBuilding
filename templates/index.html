@@ -9,21 +9,18 @@
   <title>Document</title>
 </head>
 <body>
-
-  <!-- Using CSS, style the random fact, Random Student, & Random Image -->
-  <!-- Use your own colors create cards for the random facts and students,  -->
-  <!-- Pro Tip: You can use multiple pages -->
-  <!-- Pro Tip: Impliment a  refresh/reload button in every page  -->
   <h1>Random Fact</h1>
   {{fact}}
-
+<div>
   <h1>Random Student</h1>
   {{name}}
-
-
-  <h1>Random Image</h1>
-
+  <button class="reload-button" onclick="window.location.reload();">Reload</button>
+  </div>
+ <h1>Random Image</h1>
+<div>
   <img src="{{dog}}" alt="">
   <!-- {{dog}} -->
+  <button class="reload-button" onclick="window.location.reload();">Reload</button>
+  </div>
 </body>
 </html>

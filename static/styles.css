@@ -1,9 +1,32 @@
 h1{
-  color: red;
+  color: blue;
 }
 
 
 img{
   width: 100px;
   height: 50px
+}
+.card{
+  border: 0cap;
+  background-color: beige;
+  text-align: center;
+}
+.random-fact{
+  background-color: aliceblue;
+  color: white;
+}
+.random-student{
+  background-color: antiquewhite;
+  text-align: justify;
+}
+.random-image{
+  background-color: antiquewhite;
+  color: azure;
+}
+reload-button{
+  background-color: antiquewhite;
+  color: aliceblue;
+  text-align: center;
+  cursor: pointer;
 }
